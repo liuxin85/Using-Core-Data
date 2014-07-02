@@ -22,6 +22,9 @@
 		4B8FBE651963E865000404A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8FBE491963E864000404A2 /* CoreData.framework */; };
 		4B8FBE6D1963E865000404A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FBE6B1963E865000404A2 /* InfoPlist.strings */; };
 		4B8FBE6F1963E865000404A2 /* Using_Core_DataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FBE6E1963E865000404A2 /* Using_Core_DataTests.m */; };
+		4B8FBE7A1963EB53000404A2 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FBE791963EB53000404A2 /* Word.m */; };
+		4B8FBE7D1963EB54000404A2 /* Vocabulary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FBE7C1963EB54000404A2 /* Vocabulary.m */; };
+		4B8FBE801963EC10000404A2 /* VocabulariesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FBE7F1963EC10000404A2 /* VocabulariesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		4B8FBE6A1963E865000404A2 /* Using Core DataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Using Core DataTests-Info.plist"; sourceTree = "<group>"; };
 		4B8FBE6C1963E865000404A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B8FBE6E1963E865000404A2 /* Using_Core_DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Using_Core_DataTests.m; sourceTree = "<group>"; };
+		4B8FBE781963EB53000404A2 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		4B8FBE791963EB53000404A2 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		4B8FBE7B1963EB54000404A2 /* Vocabulary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vocabulary.h; sourceTree = "<group>"; };
+		4B8FBE7C1963EB54000404A2 /* Vocabulary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vocabulary.m; sourceTree = "<group>"; };
+		4B8FBE7E1963EC10000404A2 /* VocabulariesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocabulariesViewController.h; sourceTree = "<group>"; };
+		4B8FBE7F1963EC10000404A2 /* VocabulariesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VocabulariesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				4B8FBE551963E864000404A2 /* AppDelegate.m */,
 				4B8FBE5A1963E864000404A2 /* Images.xcassets */,
 				4B8FBE571963E864000404A2 /* Using_Core_Data.xcdatamodeld */,
+				4B8FBE7E1963EC10000404A2 /* VocabulariesViewController.h */,
+				4B8FBE7F1963EC10000404A2 /* VocabulariesViewController.m */,
+				4B8FBE7B1963EB54000404A2 /* Vocabulary.h */,
+				4B8FBE7C1963EB54000404A2 /* Vocabulary.m */,
+				4B8FBE781963EB53000404A2 /* Word.h */,
+				4B8FBE791963EB53000404A2 /* Word.m */,
 				4B8FBE4C1963E864000404A2 /* Supporting Files */,
 			);
 			path = "Using Core Data";
@@ -248,8 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8FBE801963EC10000404A2 /* VocabulariesViewController.m in Sources */,
 				4B8FBE561963E864000404A2 /* AppDelegate.m in Sources */,
+				4B8FBE7A1963EB53000404A2 /* Word.m in Sources */,
 				4B8FBE521963E864000404A2 /* main.m in Sources */,
+				4B8FBE7D1963EB54000404A2 /* Vocabulary.m in Sources */,
 				4B8FBE591963E864000404A2 /* Using_Core_Data.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
